@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('img.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sign-b{
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: transparent;
+    border-radius: 3px;
+
+}
+.sign-box
+{
+    width: 470px;
+    height: 720px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+h4{
+    text-align: center;
+}
+form{
+    width:300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+button[type="button"]
+{
+    width: 300px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    background-color: #49c1a2;
+}
+
+.sign-box .btn{
+    
+    width: 300px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    background-color: #49c1a2;
+   
+}
+
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.para2{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+    }
+    .para2 a{
+        color: seagreen;
+    }
+
